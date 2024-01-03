@@ -56,9 +56,19 @@ function App() {
             </div>
           </div>
 
+          <div className="bg-sky-500 p-5 rounded-xl">
+            <p className="text-white">🌳BUCKET #3</p>
+            <p className="text-white text-3xl">25% water.</p>
+            <div className="flex">
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"3/12"} content={"XXX..."} />
+            </div>
+          </div>
+
           <div className="bg-lime-950 p-5 rounded-xl">
             <p className="text-white">🌳BUCKET #4</p>
-            <p className="text-white text-3xl">25% energy..</p>
+            <p className="text-white text-3xl">25% energy.</p>
             <div className="flex">
               <Risk basis={"4/12"} content={"XXX..."} />
               <Risk basis={"4/12"} content={"XXX..."} />
