@@ -1,5 +1,7 @@
 import "./App.css";
 
+import Risk from "./components/Risk";
+
 function App() {
   return (
     <>
@@ -15,15 +17,9 @@ function App() {
 
           {/* 3 green buttons */}
           <div className="flex">
-            <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-              HIGH...
-            </div>
-            <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-              HIGH...
-            </div>
-            <div className="text-white text-sm bg-green-700 basis-3/12 px-3 py-1 mr-4 my-2 rounded-full">
-              HIGH...
-            </div>
+            <Risk basis={"4/12"} content={"HIGH..."} />
+            <Risk basis={"4/12"} content={"HIGH..."} />
+            <Risk basis={"3/12"} content={"HIGH..."} />
           </div>
 
           <p className="text-white text-xl">SUMMARY</p>
@@ -44,15 +40,9 @@ function App() {
             <p className="text-gray-400">🌳BUCKET #1</p>
             <p className="text-white text-3xl">30% = food and ag.</p>
             <div className="flex">
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-3/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"3/12"} content={"XXX..."} />
             </div>
           </div>
 
@@ -60,31 +50,9 @@ function App() {
             <p className="text-gray-400">🌳BUCKET #2</p>
             <p className="text-white text-3xl">10% = healthcare.</p>
             <div className="flex">
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-3/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-sky-500 p-5 rounded-xl">
-            <p className="text-gray-400">🌳BUCKET #3</p>
-            <p className="text-white text-3xl">25% = water.</p>
-            <div className="flex">
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}black
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-3/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"3/12"} content={"XXX..."} />
             </div>
           </div>
 
@@ -92,15 +60,9 @@ function App() {
             <p className="text-gray-400">🌳BUCKET #4</p>
             <p className="text-white text-3xl">25% energy..</p>
             <div className="flex">
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-3/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"3/12"} content={"XXX..."} />
             </div>
           </div>
 
@@ -124,15 +86,9 @@ function App() {
             <p className="text-gray-400">🌳BUCKET #6</p>
             <p className="text-white text-3xl">5% = environment.</p>
             <div className="flex">
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-3/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"3/12"} content={"XXX..."} />
             </div>
           </div>
 
@@ -140,15 +96,9 @@ function App() {
             <p className="text-gray-400">🌳BUCKET #7</p>
             <p className="text-white text-3xl">2% economic.</p>
             <div className="flex">
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-4/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
-              <div className="text-white text-sm bg-green-700 basis-3/12 px-3 py-1 mr-4 my-2 rounded-full">
-                {`{XXX}...`}
-              </div>
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"4/12"} content={"XXX..."} />
+              <Risk basis={"3/12"} content={"XXX..."} />
             </div>
           </div>
         </div>
