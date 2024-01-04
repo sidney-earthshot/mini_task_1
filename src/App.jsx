@@ -17,9 +17,21 @@ function App() {
 
           {/* 3 green buttons */}
           <div className="flex">
-            <Risk basis={"4/12"} content={"HIGH..."} />
-            <Risk basis={"4/12"} content={"HIGH..."} />
-            <Risk basis={"3/12"} content={"HIGH..."} />
+            <Risk
+              basis={"basis-4/12"}
+              content={"HIGH..."}
+              bg_colour={"bg-green-700"}
+            />
+            <Risk
+              basis={"basis-4/12"}
+              content={"HIGH..."}
+              bg_colour={"bg-green-700"}
+            />
+            <Risk
+              basis={"basis-4/12"}
+              content={"HIGH..."}
+              bg_colour={"bg-green-700"}
+            />
           </div>
 
           <p className="text-white text-xl">SUMMARY</p>
@@ -32,77 +44,137 @@ function App() {
         </div>
 
         {/* divider */}
-        <div class="h-screen bg-gray-700 w-[3px]"></div>
+        <div className="h-screen bg-gray-700 w-[3px]"></div>
 
         {/* bottom boxes */}
         <div className="flex [&>*]:mx-2 [&>*]:w-[450px]">
-          <div className="bg-orange-300 p-5 rounded-xl">
+          <div className="bg-orange-300 p-5 mb-5 rounded-xl">
             <p className="text-white">🌳BUCKET #1</p>
             <p className="text-white text-3xl">30% = food and ag.</p>
             <div className="flex">
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"3/12"} content={"XXX..."} />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
             </div>
           </div>
 
-          <div className="bg-red-500 p-5 rounded-xl">
+          <div className="bg-red-500 p-5 mb-5 rounded-xl">
             <p className="text-white">🌳BUCKET #2</p>
             <p className="text-white text-3xl">10% = healthcare.</p>
             <div className="flex">
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"3/12"} content={"XXX..."} />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
             </div>
           </div>
 
-          <div className="bg-sky-500 p-5 rounded-xl">
+          <div className="bg-sky-500 p-5 mb-5 rounded-xl">
             <p className="text-white">🌳BUCKET #3</p>
             <p className="text-white text-3xl">25% water.</p>
             <div className="flex">
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"3/12"} content={"XXX..."} />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
             </div>
           </div>
 
-          <div className="bg-lime-950 p-5 rounded-xl">
+          <div className="bg-lime-950 p-5 mb-5 rounded-xl">
             <p className="text-white">🌳BUCKET #4</p>
             <p className="text-white text-3xl">25% energy.</p>
             <div className="flex">
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"3/12"} content={"XXX..."} />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
             </div>
           </div>
 
-          <div className="bg-orange-400 p-5 rounded-xl">
+          <div className="bg-orange-400 p-5 mb-5 rounded-xl">
             <p className="text-white">🌳BUCKET #5</p>
             <p className="text-white text-3xl">3% = housing.</p>
             <div className="flex">
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"3/12"} content={"XXX..."} />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
+              <Risk
+                basis={"basis-4/12"}
+                content={"XXX..."}
+                bg_colour={"bg-green-700"}
+              />
             </div>
           </div>
 
-          <div className="bg-green-600 p-5 rounded-xl">
+          <div className="bg-green-600 p-5 mb-5 rounded-xl">
             <p className="text-white">🌳BUCKET #6</p>
             <p className="text-white text-3xl">5% = environment.</p>
             <div className="flex">
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"3/12"} content={"XXX..."} />
+              <Risk basis={"basis-4/12"} content={"XXX..."} />
+              <Risk basis={"basis-4/12"} content={"XXX..."} />
+              <Risk basis={"basis-4/12"} content={"XXX..."} />
             </div>
           </div>
 
-          <div className="bg-purple-700 p-5 rounded-xl">
+          <div className="bg-purple-700 p-5 mb-5 rounded-xl">
             <p className="text-white">🌳BUCKET #7</p>
             <p className="text-white text-3xl">2% economic.</p>
             <div className="flex">
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"4/12"} content={"XXX..."} />
-              <Risk basis={"3/12"} content={"XXX..."} />
+              <Risk basis={"basis-4/12"} content={"XXX..."} />
+              <Risk basis={"basis-4/12"} content={"XXX..."} />
+              <Risk basis={"basis-4/12"} content={"XXX..."} />
             </div>
           </div>
         </div>
